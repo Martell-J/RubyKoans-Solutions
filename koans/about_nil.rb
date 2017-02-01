@@ -38,7 +38,8 @@ class AboutNil < Neo::Koan
 
     # .nil? is inherited from object, and so would true for only
     # the class it's searching for. the == operator would perform a
-    # comparison between two separate objects, so the former would be faster.
+    # comparison between two separate objects, so the former would be faster
+    # and more succinct.
   end
 
 end
